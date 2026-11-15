@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "delta-hedging"
+version = "0.1.0"
+description = "A delta hedging simulator: Black-Scholes pricing, GBM paths and a self-financing hedge."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26", "scipy>=1.11", "pandas>=2.0", "matplotlib>=3.8"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+notebook = ["nbformat", "nbconvert", "ipykernel"]
+
+[tool.setuptools]
+packages = ["delta_hedging"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

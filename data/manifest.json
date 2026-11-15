@@ -1,0 +1,52 @@
+{
+  "series": [
+    {
+      "series_id": "SP500",
+      "description": "S&P 500 index, daily close (S&P Dow Jones Indices LLC)",
+      "provider": "FRED, Federal Reserve Bank of St. Louis",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=SP500",
+      "series_page": "https://fred.stlouisfed.org/series/SP500",
+      "retrieved_utc": "2026-11-15T20:59:25Z",
+      "first_observation": "2016-11-14",
+      "last_observation": "2026-11-13",
+      "observations": 2514,
+      "sha256": "6e092f266c10be5d347599680067e3563d7d9545dc4ed2815a45fea8d8acf272"
+    },
+    {
+      "series_id": "DGS3MO",
+      "description": "Market yield on U.S. Treasury securities at 3-month constant maturity, investment basis (Board of Governors, H.15)",
+      "provider": "FRED, Federal Reserve Bank of St. Louis",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS3MO",
+      "series_page": "https://fred.stlouisfed.org/series/DGS3MO",
+      "retrieved_utc": "2026-11-15T20:59:25Z",
+      "first_observation": "1981-09-01",
+      "last_observation": "2026-11-12",
+      "observations": 11299,
+      "sha256": "89bb7be934f8149c3910ac1ecff58122724e1c2f37239469719461f31ef83a70"
+    },
+    {
+      "series_id": "VXVCLS",
+      "description": "Cboe S&P 500 3-Month Volatility Index, daily close (Cboe)",
+      "provider": "FRED, Federal Reserve Bank of St. Louis",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VXVCLS",
+      "series_page": "https://fred.stlouisfed.org/series/VXVCLS",
+      "retrieved_utc": "2026-11-15T20:59:25Z",
+      "first_observation": "2007-12-04",
+      "last_observation": "2026-11-12",
+      "observations": 4766,
+      "sha256": "0cb586abd86a4a681db6582f71587d7ac469bba21e1b4b2b45576079b5873e9e"
+    },
+    {
+      "series_id": "VIXCLS",
+      "description": "Cboe Volatility Index: VIX, daily close (Cboe)",
+      "provider": "FRED, Federal Reserve Bank of St. Louis",
+      "download_url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=VIXCLS",
+      "series_page": "https://fred.stlouisfed.org/series/VIXCLS",
+      "retrieved_utc": "2026-11-15T20:59:25Z",
+      "first_observation": "1990-01-02",
+      "last_observation": "2026-11-12",
+      "observations": 9316,
+      "sha256": "31a10b41ad9938716016699776d4d2e14b729cffc7cd6db7ae509f4e2da6d5a2"
+    }
+  ]
+}
