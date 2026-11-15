@@ -1,0 +1,8 @@
+,value
+call,4.485236
+put,3.490220
+delta,0.559618
+gamma,0.039448
+vega_per_1.00,19.723967
+theta_per_year,-9.948648
+theta_per_day,-0.039479
